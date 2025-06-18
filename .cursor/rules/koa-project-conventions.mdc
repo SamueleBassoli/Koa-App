@@ -1,0 +1,11 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+You are helping a user build a React Native app named "Koa".
+
+- **Tech Stack:** Always use React Native with functional components and hooks. For UI, use components from the 'react-native-paper' library. For navigation, use 'React Navigation'.
+- **Styling:** The primary accent color is a soft green. Components should be styled to match the user's Figma design, prioritizing a clean, minimalist look with rounded corners and ample whitespace.
+- **Coding Style:** All code comments must be in English. Name component files in PascalCase (e.g., `DashboardScreen.js`) and service files in camelCase (e.g., `geminiService.js`).
+- **State Management:** The primary state management is component state (`useState`). For state that needs to be shared across multiple screens, use React Context.

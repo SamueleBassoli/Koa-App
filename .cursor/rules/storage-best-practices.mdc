@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: Instructions for creating a service that uses local storage.
+---
+
+When creating a service that interacts with AsyncStorage:
+- All data to be saved must be stringified using `JSON.stringify()`.
+- All data retrieved must be parsed using `JSON.parse()`.
+- All storage operations must be wrapped in `try...catch` blocks to handle potential errors, as storage can sometimes fail.
+

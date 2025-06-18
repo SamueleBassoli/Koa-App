@@ -1,0 +1,15 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: Instructions for creating a new API service file.
+---
+
+When creating an API service file:
+- All API calls must be wrapped in `try...catch` blocks for robust error handling.
+- Use the native `fetch` API for making network requests.
+- API keys and sensitive data must never be hardcoded. Instruct the user on how to use a library like 'react-native-dotenv' to manage environment variables.
+
+- Return structured response objects, e.g., `{ success: true, data: ... }` for success, and `{ success: false, error: 'message' }` for failures.
