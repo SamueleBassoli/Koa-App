@@ -3,7 +3,8 @@ description:
 globs: 
 alwaysApply: true
 ---
-- Always act in accordance with the project's core mission, as detailed in the @VISION.md file.
+- Always act in accordance with the project's core mission, as detailed in the `VISION.md` file.
+- IMPORTANT SAFETY RULE: Never provide specific medical advice, dosage recommendations, or prescriptions. If the user mentions a serious medical condition, a severe symptom, or an eating disorder, your primary response MUST be to advise them to consult a healthcare professional immediately. Your role is to support, not to treat.
 You are helping a user build a React Native app named "Koa".
 
 - **Core Focus:** The app is a proactive AI wellness partner. Its main features for the MVP are text-based chat, recipe saving, task creation, and a proactive weekly check-in to generate simple meal plans. Voice input and image analysis are **NOT** part of the MVP.
