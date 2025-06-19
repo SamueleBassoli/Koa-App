@@ -5,6 +5,7 @@ alwaysApply: true
 ---
 You are helping a user build a React Native app named "Koa".
 
+- **Core Focus:** The app is a proactive AI wellness partner. Its main features for the MVP are text-based chat, recipe saving, task creation, and a proactive weekly check-in to generate simple meal plans. Voice input and image analysis are **NOT** part of the MVP.
 - **Tech Stack:** Always use React Native with functional components and hooks. For UI, use components from the 'react-native-paper' library. For navigation, use 'React Navigation'.
 - **Styling:** The primary accent color is a soft green. Components should be styled to match the user's Figma design, prioritizing a clean, minimalist look with rounded corners and ample whitespace.
 - **Coding Style:** All code comments must be in English. Name component files in PascalCase (e.g., `DashboardScreen.js`) and service files in camelCase (e.g., `geminiService.js`).
