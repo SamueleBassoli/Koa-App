@@ -16,7 +16,7 @@ This document serves as the detailed, step-by-step development checklist for the
   - [ ] Inside the container, create a `BottomTabNavigator` with 4 tabs: `Home`, `Coach`, `Cookbook`, `Settings`.
   - [ ] For each tab, create a placeholder screen file in `/src/screens` (e.g., `HomeScreen.js`, `CoachScreen.js`, etc.). Each screen should just display its name for now.
   - [ ] Link each screen component to its corresponding tab in the `BottomTabNavigator`, assigning an appropriate icon from `react-native-paper/icons` to each.
-- [ ] **Task 5 (NEW):** Implement the Onboarding Flow.
+- [ ] **Task 5 (NEW):** Implement the Onboarding Flow with Medical Disclaimer.
   - [ ] Create a separate stack navigator for the onboarding screens in `/src/navigation/OnboardingNavigator.js`.
   - [ ] In `AppNavigator.js`, create a root stack navigator that decides whether to show the `OnboardingNavigator` or the `BottomTabNavigator` based on a state variable (e.g., `isOnboardingCompleted`).
   - [ ] **Sub-task 5.1:** Create the `DisclaimerScreen.js`.
