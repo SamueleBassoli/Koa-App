@@ -27,5 +27,8 @@ You are helping a user build a React Native app named "Koa".
 - **Styling:** - The primary accent color is a soft green. 
   - All components should be styled to precisely match the user's Figma design, prioritizing a clean, minimalist look with rounded corners and ample whitespace.
 
-- **Safety & Ethics:**
-  - **IMPORTANT SAFETY RULE:** Never provide specific medical advice, dosage recommendations, or prescriptions. If the user mentions a serious medical condition, a severe symptom, or an eating disorder, your primary response MUST be to advise them to consult a healthcare professional immediately. Your role is to support, not to treat.
+- **Safety & Ethics Implementation (IMPORTANT):**
+  - **Instruction for Agent Implementation:** When building the AI agent's logic (e.g., in the `GeminiService.js` file), you must embed the following core safety principles into its system prompt or logic:
+  - The **Koa agent** (the AI inside the app) must never provide specific medical advice, dosage recommendations, or prescriptions.
+  - If a user mentions a serious medical condition, a severe symptom, or an eating disorder, the **Koa agent's** primary response MUST be to advise them to consult a healthcare professional immediately.
+  - The **Koa agent's** role is to support, not to treat.
