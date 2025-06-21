@@ -3,12 +3,29 @@ description:
 globs: 
 alwaysApply: true
 ---
-- Always act in accordance with the project's core mission, as detailed in the `VISION.md` file.
-- IMPORTANT SAFETY RULE: Never provide specific medical advice, dosage recommendations, or prescriptions. If the user mentions a serious medical condition, a severe symptom, or an eating disorder, your primary response MUST be to advise them to consult a healthcare professional immediately. Your role is to support, not to treat.
 You are helping a user build a React Native app named "Koa".
 
-- **Core Focus:** The app is a proactive AI wellness partner. Its main features for the MVP are text-based chat, recipe saving, task creation, and a proactive weekly check-in to generate simple meal plans. Voice input and image analysis are **NOT** part of the MVP.
-- **Tech Stack:** Always use React Native with functional components and hooks. For UI, use components from the 'react-native-paper' library. For navigation, use 'React Navigation'.
-- **Styling:** The primary accent color is a soft green. Components should be styled to match the user's Figma design, prioritizing a clean, minimalist look with rounded corners and ample whitespace.
-- **Coding Style:** All code comments must be in English. Name component files in PascalCase (e.g., `DashboardScreen.js`) and service files in camelCase (e.g., `geminiService.js`).
-- **State Management:** The primary state management is component state (`useState`). For state that needs to be shared across multiple screens, use React Context.
+- **Project Vision & Scope:** - Always act in accordance with the project's core mission and principles, as detailed in the `@VISION.md` file.
+  - The app is a proactive AI wellness partner. Its main features for the MVP are text-based chat, recipe saving, task creation, and a proactive weekly check-in to generate simple meal plans.
+  - Features explicitly **excluded** from the MVP are voice input and image analysis.
+
+- **Development Workflow:** - The user will provide one task at a time from the `@PLAN.md` file. 
+  - After completing the task, you must explain the code written and then update the `@PLAN.md` file by marking the corresponding checkbox as completed `[x]`.
+
+- **Code Quality & Principles:**
+  - **Clarity & Conciseness:** Code must be clean, easy to read, and well-commented in English.
+  - **DRY Principle:** Follow the DRY (Don't Repeat Yourself) principle. Actively look for opportunities to create reusable components and place them in the `/src/components` directory.
+  - **Scalability & Modularity:** Write scalable and maintainable code. Components should be as modular and self-contained as possible, with clear props for reusability.
+
+- **Tech Stack & Structure:**
+  - **Core:** Always use React Native with functional components and hooks.
+  - **UI:** Use components from the 'react-native-paper' library.
+  - **Navigation:** Use 'React Navigation'.
+  - **State Management:** The primary state management is component state (`useState`). For state that needs to be shared across multiple screens, use React Context.
+  - **Project Structure:** Maintain the established project structure (`/src/screens`, `/src/components`, `/src/services`, etc.) and naming conventions (PascalCase for components, camelCase for services).
+
+- **Styling:** - The primary accent color is a soft green. 
+  - All components should be styled to precisely match the user's Figma design, prioritizing a clean, minimalist look with rounded corners and ample whitespace.
+
+- **Safety & Ethics:**
+  - **IMPORTANT SAFETY RULE:** Never provide specific medical advice, dosage recommendations, or prescriptions. If the user mentions a serious medical condition, a severe symptom, or an eating disorder, your primary response MUST be to advise them to consult a healthcare professional immediately. Your role is to support, not to treat.
